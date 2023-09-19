@@ -1,2 +1,1 @@
-rootProject.name = "IMS"
-
+rootProject.name = "ims"
