@@ -4,6 +4,9 @@ plugins {
 	id("io.spring.dependency-management") version "1.1.3"
 	kotlin("jvm") version "1.9.10"
 
+	//for implementing lombok
+	kotlin("kapt") version "1.9.10"
+
 
 }
 
@@ -22,6 +25,16 @@ repositories {
 }
 
 dependencies {
+
+	//Added to resolve the no args error with the kotlin classes
+	implementation("org.projectlombok:lombok")
+	kapt("org.projectlombok:lombok")
+
+	//Added as JPA's Javax.persistence doesn't seam to work.
+	implementation("jakarta.persistence:jakarta.persistence-api")
+
+	// Adds JPA that includes ORM tools such as hybernate.
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
 
 	// JUnit Jupiter (JUnit 5) API and TestEngine Implementation
