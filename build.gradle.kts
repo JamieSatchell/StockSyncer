@@ -56,10 +56,10 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
 	// H2 Database Driver
-	// runtimeOnly("com.h2database:h2")
+	runtimeOnly("com.h2database:h2")
 
 	// Uncomment if you're using MySQL:
-	implementation("mysql:mysql-connector-java:6.0.6")
+	//implementation("mysql:mysql-connector-java:6.0.6")
 
 	// Spring Boot Actuator
 	implementation("org.springframework.boot:spring-boot-starter-actuator")

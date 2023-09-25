@@ -16,7 +16,7 @@ data class Category (
         @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
         var id: Long? = null,
         var name: String? = null,
-        @OneToMany (mappedBy = "catagory")
+        @OneToMany (mappedBy = "category")
         var products: MutableList<Product> = mutableListOf()
 
 )

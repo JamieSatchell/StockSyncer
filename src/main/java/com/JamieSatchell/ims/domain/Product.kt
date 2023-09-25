@@ -6,7 +6,7 @@ import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
 import jakarta.persistence.ManyToOne
-import jakarta.persistence.OneToMany
+import jakarta.persistence.ManyToMany
 
 
 
@@ -21,7 +21,7 @@ data class Product(
         var price: Double? = null,
         @ManyToOne
         var category: Category? = null,
-        @OneToMany(mappedBy = "product")
+        @ManyToMany(mappedBy = "products")
         var stock: MutableList<Stock> = mutableListOf()
 )
 
