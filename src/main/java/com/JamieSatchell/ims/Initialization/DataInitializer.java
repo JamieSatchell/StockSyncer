@@ -50,13 +50,17 @@ public class DataInitializer implements CommandLineRunner {
 
         // Create some sample stock items
         Stock appleStock = new Stock();
-        appleStock.setLocation(warehouse);
+        appleStock.setLocationTEST(warehouse);
         appleStock.setQuantity(100);
 
 
         Stock laptopStock = new Stock();
-        laptopStock.setLocation(store);
+        laptopStock.setLocationTEST(store);
         laptopStock.setQuantity(20);
+
+        Stock testStock = new Stock();
+        testStock.setLocationTEST(store);
+        testStock.setQuantity(88);
 
 
 
@@ -78,6 +82,7 @@ public class DataInitializer implements CommandLineRunner {
         apple.setPrice(1.0);
         apple.setCategory(fruits);
         apple.addStock(appleStock);
+        apple.addStock(testStock);
         productRepository.save(apple);
 
         System.out.println("PINEAPPLE: -----"+apple.getStock().get(0).getQuantity());
@@ -93,6 +98,7 @@ public class DataInitializer implements CommandLineRunner {
 
         stockRepository.save(appleStock);
         stockRepository.save(laptopStock);
+        stockRepository.save(testStock);
 
     }
 }
