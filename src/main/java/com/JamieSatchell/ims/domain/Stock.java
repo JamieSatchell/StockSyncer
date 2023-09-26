@@ -18,13 +18,23 @@ public class Stock {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToOne
+    @ManyToOne
+    @JoinColumn(name = "location_id")
     private Location location;
 
     private Integer quantity;
 
-    @ManyToMany
-    private List<Product> products = new ArrayList<>();
+
+    @ManyToOne(cascade = CascadeType.MERGE)
+    private Product product;
+
+
+
+    public void setLocationTEST(Location locationItem){
+        this.location=locationItem;
+        locationItem.addStock(this);
+
+    }
 
     // No manual getters, setters, or constructors are needed due to Lombok annotations
 }

@@ -33,14 +33,6 @@ public class DataInitializer implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        // Create some sample categories
-        Category fruits = new Category();
-        fruits.setName("Fruits");
-        categoryRepository.save(fruits);
-
-        Category electronics = new Category();
-        electronics.setName("Electronics");
-        categoryRepository.save(electronics);
 
         // Create some sample locations
         Location warehouse = new Location();
@@ -53,28 +45,54 @@ public class DataInitializer implements CommandLineRunner {
         store.setAddress("456 Market St");
         locationRepository.save(store);
 
+
+
+
+        // Create some sample stock items
+        Stock appleStock = new Stock();
+        appleStock.setLocation(warehouse);
+        appleStock.setQuantity(100);
+
+
+        Stock laptopStock = new Stock();
+        laptopStock.setLocation(store);
+        laptopStock.setQuantity(20);
+
+
+
+
+        // Create some sample categories
+        Category fruits = new Category();
+        fruits.setName("Fruits");
+        categoryRepository.save(fruits);
+
+        Category electronics = new Category();
+        electronics.setName("Electronics");
+        categoryRepository.save(electronics);
+
+
+
         // Create some sample products
         Product apple = new Product();
         apple.setName("Apple");
         apple.setPrice(1.0);
         apple.setCategory(fruits);
+        apple.addStock(appleStock);
         productRepository.save(apple);
+
+        System.out.println("PINEAPPLE: -----"+apple.getStock().get(0).getQuantity());
 
         Product laptop = new Product();
         laptop.setName("Laptop");
         laptop.setPrice(1000.0);
         laptop.setCategory(electronics);
+        laptop.addStock(laptopStock);
         productRepository.save(laptop);
 
-        // Create some sample stock items
-        Stock warehouseStock = new Stock();
-        warehouseStock.setLocation(warehouse);
-        warehouseStock.setQuantity(100);
-        stockRepository.save(warehouseStock);
 
-        Stock storeStock = new Stock();
-        storeStock.setLocation(store);
-        storeStock.setQuantity(20);
-        stockRepository.save(storeStock);
+
+        stockRepository.save(appleStock);
+        stockRepository.save(laptopStock);
+
     }
 }

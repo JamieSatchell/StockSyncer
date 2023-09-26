@@ -1,12 +1,12 @@
 package com.JamieSatchell.ims.domain;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.NoArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @NoArgsConstructor
@@ -22,5 +22,12 @@ public class Location {
 
     private String address;
 
-    // No manual getters, setters, or constructors are needed due to Lombok annotations
+    @OneToMany(mappedBy = "location")
+    private List<Stock> stock = new ArrayList<>();
+
+    public void addStock(Stock stockItem) {
+        if(stockItem != null) {
+            this.stock.add(stockItem);
+        }
+    }
 }

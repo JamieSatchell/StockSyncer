@@ -6,13 +6,19 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @NoArgsConstructor
 @Getter
 @Setter
 public class Product {
+
+    @Transient
+    private int totalStock; // This field will not be persisted to the database
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,8 +31,15 @@ public class Product {
     @ManyToOne
     private Category category;
 
-    @ManyToMany(mappedBy = "products")
+    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Stock> stock = new ArrayList<>();
 
-    // No manual getters, setters, or constructors are needed due to Lombok annotations
+    public void addStock(Stock stockItem) {
+        if(stockItem != null) {
+            this.stock.add(stockItem);
+            stockItem.setProduct(this);
+        }
+    }
 }
+
+

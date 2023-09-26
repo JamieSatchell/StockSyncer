@@ -1,26 +1,21 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-<head>
-    <title>Product List</title>
-</head>
-<body>
-
+<!-- Add new th for Stock -->
 <table>
     <thead>
     <tr>
+        <th>ID</th>
         <th>Name</th>
         <th>Price</th>
-        <th>Location</th>
+        <th>Category</th>
+        <th>Stock</th> <!-- New column -->
     </tr>
     </thead>
     <tbody>
     <tr th:each="product : ${products}">
+        <td th:text="${product.id}"></td>
         <td th:text="${product.name}"></td>
         <td th:text="${product.price}"></td>
-
+        <td th:text="${product.category?.name}"></td>
+        <td th:text="${product.totalStock}"></td> <!-- New column -->
     </tr>
     </tbody>
 </table>
-
-</body>
-</html>
