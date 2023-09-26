@@ -1,7 +1,7 @@
 package com.JamieSatchell.ims;
 
+import com.JamieSatchell.ims.Controllers.InventoryController;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.web.servlet.MockMvc;
@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-@WebMvcTest(com.JamieSatchell.ims.InventoryController.class)
+@WebMvcTest(InventoryController.class)
 public class InventoryControllerTest {
 
     @Autowired

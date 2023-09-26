@@ -74,6 +74,9 @@ dependencies {
 
 	implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.10")
 
+	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+
+
 
 
 

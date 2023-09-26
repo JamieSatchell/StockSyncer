@@ -1,4 +1,4 @@
-package com.JamieSatchell.ims;
+package com.JamieSatchell.ims.Controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
