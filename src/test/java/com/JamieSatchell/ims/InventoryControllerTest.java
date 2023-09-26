@@ -1,3 +1,7 @@
+
+//This is an old test kept only for reference
+
+/*
 package com.JamieSatchell.ims;
 
 import com.JamieSatchell.ims.Controllers.InventoryController;
@@ -23,3 +27,4 @@ public class InventoryControllerTest {
                 .andExpect(MockMvcResultMatchers.content().string("Test message from Inventory Controller!"));
     }
 }
+*/

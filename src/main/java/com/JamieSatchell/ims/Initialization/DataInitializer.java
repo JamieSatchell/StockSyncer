@@ -1,3 +1,8 @@
+
+
+//This class was used to add data to the table for testing purposes
+
+/*
 package com.JamieSatchell.ims.Initialization;
 
 import com.JamieSatchell.ims.domain.Category;
@@ -90,7 +95,6 @@ public class DataInitializer implements CommandLineRunner {
         apple.addStock(plsWork);
         productRepository.save(apple);
 
-        System.out.println("PINEAPPLE: -----"+apple.getStock().get(0).getQuantity());
 
         Product laptop = new Product();
         laptop.setName("Laptop");
@@ -108,3 +112,4 @@ public class DataInitializer implements CommandLineRunner {
 
     }
 }
+*/

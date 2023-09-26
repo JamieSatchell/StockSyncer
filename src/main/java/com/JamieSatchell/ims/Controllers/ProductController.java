@@ -8,29 +8,22 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import java.util.List;
 
 @Controller
 @RequestMapping("/products")
 public class ProductController {
-
     @Autowired
     private ProductService productService;
-
     @GetMapping
     public String getAllProducts(Model model) {
         List<Product> products = productService.getAllProducts();
-
         // Calculating total stock for each product and setting it
         for(Product product : products) {
             int totalStock = product.getStock().stream().mapToInt(Stock::getQuantity).sum();
             product.setTotalStock(totalStock);  // Assume a setter method for totalStock in Product class
         }
-
-        System.out.println("HERE : --- " + products.get(0).getStock());
-
         model.addAttribute("products", products);
-        return "productList";
+        return "productData";
     }
 }

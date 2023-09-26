@@ -7,16 +7,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class StockController {
-
     private final StockService stockService;
-
     public StockController(StockService stockService) {
         this.stockService = stockService;
     }
-
-    @GetMapping("/stockdata")
+    @GetMapping("/stock")
     public String showStockData(Model model) {
         model.addAttribute("stocks", stockService.getAllStocks());
-        return "stockdata";
+        return "stockData";
     }
 }
