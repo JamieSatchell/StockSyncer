@@ -56,3 +56,216 @@ org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-21
 org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
 2023-09-26 20:22:31 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:38:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:48:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STOCK_PRODUCTS" not found; SQL statement:
+DELETE FROM STOCK_PRODUCTS [42102-214]
+2023-09-26 20:48:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:48:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:48:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:48:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:48:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:48:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:48:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:48:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:48:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-09-26 20:48:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
