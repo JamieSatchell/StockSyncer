@@ -8,6 +8,17 @@ plugins {
 	kotlin("kapt") version "1.9.10"
 
 
+	id("io.freefair.lombok") version "8.3"
+
+	kotlin("plugin.lombok") version "1.8.10"
+
+
+
+
+}
+
+kapt {
+	keepJavacAnnotationProcessors = true
 }
 
 group = "com.JamieSatchell"
@@ -26,9 +37,9 @@ repositories {
 
 dependencies {
 
-	//Added to resolve the no args error with the kotlin classes
-	implementation("org.projectlombok:lombok")
-	kapt("org.projectlombok:lombok")
+
+
+
 
 	//Added as JPA's Javax.persistence doesn't seam to work.
 	implementation("jakarta.persistence:jakarta.persistence-api")
@@ -76,6 +87,7 @@ dependencies {
 
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
 
+	//compileOnly("org.projectlombok:lombok:1.18.10")
 
 
 
@@ -88,3 +100,4 @@ tasks.withType<Test> {
 kotlin {
 	jvmToolchain(17)
 }
+
