@@ -72,6 +72,9 @@ dependencies {
 	implementation("com.google.inject:guice:5.0.1")
 	implementation(kotlin("stdlib-jdk8"))
 
+	implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.10")
+
+
 
 
 }

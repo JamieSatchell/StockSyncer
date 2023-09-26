@@ -17,7 +17,7 @@ data class Stock (
         var id: Long? = null,
         @OneToOne
         var location: Location? = null,
-        var quanity: Int? = null,
+        var quantity: Int? = null,
         @ManyToMany
         var products: MutableList<Product> = mutableListOf()
 
