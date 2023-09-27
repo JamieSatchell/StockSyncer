@@ -73,7 +73,9 @@ public class DeletionController {
 
     @PostMapping("/deleteStock")
     public String deleteStock(@RequestParam Long stockId, Model model) {
+
         try {
+            System.out.println("YES");
             stockService.deleteStockById(stockId);
             model.addAttribute("successMessage", "Stock deleted successfully");
         } catch (Exception e) {

@@ -32,6 +32,12 @@ public class Product {
             stockItem.setProduct(this);
         }
     }
+
+    public void removeStock(Stock stockItem) {
+        if(stockItem != null) {
+            this.stock.remove(stockItem);
+        }
+    }
 }
 
 

@@ -43,4 +43,5 @@ public class LocationService {
             throw new Exception("Location with id " + id + " not found.");
         }
     }
+
 }

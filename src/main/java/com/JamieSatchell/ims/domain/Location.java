@@ -25,4 +25,10 @@ public class Location {
             this.stock.add(stockItem);
         }
     }
+
+    public void removeStock(Stock stockItem) {
+        if(stockItem != null) {
+            this.stock.remove(stockItem);
+        }
+    }
 }
