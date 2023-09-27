@@ -5,6 +5,7 @@ import com.JamieSatchell.ims.repositories.CategoryRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CategoryService {
@@ -26,6 +27,21 @@ public class CategoryService {
 
     public Category findCategoryById(Long id) {
         return categoryRepository.findById(id).orElse(null);
+    }
+
+
+    public void deleteCategoryById(Long id) throws Exception {
+        Optional<Category> categoryOptional = categoryRepository.findById(id);
+        if(categoryOptional.isPresent()) {
+            Category category = categoryOptional.get();
+            if(category.getProducts().isEmpty()) {
+                categoryRepository.deleteById(id);
+            } else {
+                throw new Exception("Cannot delete category as it has associated products.");
+            }
+        } else {
+            throw new Exception("Category with id " + id + " not found.");
+        }
     }
 
 }

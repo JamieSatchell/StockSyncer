@@ -27,6 +27,8 @@ public class DataEditController {
     public String showEditPage(Model model) {
         model.addAttribute("categories", categoryService.getAllCategories());
         model.addAttribute("locations", locationService.getAllLocations());
+        model.addAttribute("products", productService.getAllProducts());
+
         return "dataedit";
     }
 

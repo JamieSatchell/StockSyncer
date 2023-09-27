@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Delete Entities</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-4">
+    <div class="d-flex justify-content-end">
+        <a th:href="@{/}" class="btn btn-info mb-3">Back to Home</a>
+    </div>
+</div>
+<div class="center">
+    <!-- Form for Deleting Products -->
+    <form action="/deleteProduct" method="post" class="form-group">
+        <label for="productId">Select Product to Delete:</label>
+        <select name="productId" id="productId" class="form-control">
+            <option th:each="product : ${products}" th:value="${product.id}" th:text="${product.name}">Product</option>
+        </select>
+        <button type="submit" class="btn btn-danger mt-2">Delete Product</button>
+    </form>
+
+    <!-- Form for Deleting Categories -->
+    <form action="/deleteCategory" method="post" class="form-group">
+        <label for="categoryId">Select Category to Delete:</label>
+        <select name="categoryId" id="categoryId" class="form-control">
+            <option th:each="category : ${categories}" th:value="${category.id}" th:text="${category.name}">Category</option>
+        </select>
+        <button type="submit" class="btn btn-danger mt-2">Delete Category</button>
+    </form>
+
+    <!-- Form for Deleting Locations -->
+    <form action="/deleteLocation" method="post" class="form-group">
+        <label for="locationId">Select Location to Delete:</label>
+        <select name="locationId" id="locationId" class="form-control">
+            <option th:each="location : ${locations}" th:value="${location.id}" th:text="${location.name}">Location</option>
+        </select>
+        <button type="submit" class="btn btn-danger mt-2">Delete Location</button>
+    </form>
+
+    <!-- Form for Deleting Stock -->
+    <form action="/deleteStock" method="post" class="form-group">
+        <label for="stockId">Select StockID to Delete:</label>
+        <select name="stockId" id="stockId" class="form-control">
+            <option th:each="stock : ${stocks}" th:value="${stock.id}" th:text="${stock.id}">Stock</option>
+        </select>
+        <button type="submit" class="btn btn-danger mt-2">Delete Stock</button>
+    </form>
+</div>
+</body>
+</html>
