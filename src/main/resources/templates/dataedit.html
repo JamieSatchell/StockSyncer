@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Edit</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-4">
+    <button onclick="toggleVisibility('productForm')" class="btn btn-primary">Add Product</button>
+    <button onclick="toggleVisibility('locationForm')" class="btn btn-primary">Add Location</button>
+    <button onclick="toggleVisibility('categoryForm')" class="btn btn-primary">Add Category</button>
+    <button onclick="toggleVisibility('stockForm')" class="btn btn-primary">Add Stock</button>
+
+    <!-- Product Form -->
+    <form id="productForm" action="#" th:action="@{/dataedit/addproduct}" method="post" style="display:none">
+        <label for="productName">Name:</label>
+        <input type="text" id="productName" name="name" required>
+        <label for="productPrice">Price:</label>
+        <input type="number" id="productPrice" name="price" required>
+        <label for="productCategory">Category:</label>
+        <select id="productCategory" name="categoryId" required>
+            <option th:each="category : ${categories}" th:value="${category.id}" th:text="${category.name}"></option>
+        </select>
+        <input type="submit" value="Add Product">
+    </form>
+
+    <!-- Location Form -->
+    <form id="locationForm" action="#" th:action="@{/dataedit/addlocation}" method="post" style="display:none">
+        <label for="locationName">Name:</label>
+        <input type="text" id="locationName" name="name" required>
+        <label for="locationAddress">Address:</label>
+        <input type="text" id="locationAddress" name="address" required>
+        <input type="submit" value="Add Location">
+    </form>
+
+    <!-- Category Form -->
+    <form id="categoryForm" action="#" th:action="@{/dataedit/addcategory}" method="post" style="display:none">
+        <label for="categoryName">Name:</label>
+        <input type="text" id="categoryName" name="name" required>
+        <input type="submit" value="Add Category">
+    </form>
+
+    <!-- Stock Form -->
+    <form id="stockForm" action="#" th:action="@{/dataedit/addstock}" method="post" style="display:none">
+        <label for="stockProduct">Product:</label>
+        <select id="stockProduct" name="productId" required>
+            <option th:each="product : ${products}" th:value="${product.id}" th:text="${product.name}"></option>
+        </select>
+        <label for="stockLocation">Location:</label>
+        <select id="stockLocation" name="locationId" required>
+            <option th:each="location : ${locations}" th:value="${location.id}" th:text="${location.name}"></option>
+        </select>
+        <label for="stockQuantity">Quantity:</label>
+        <input type="number" id="stockQuantity" name="quantity" required>
+        <input type="submit" value="Add Stock">
+    </form>
+</div>
+
+<script>
+    function toggleVisibility(formId) {
+        var form = document.getElementById(formId);
+        form.style.display = form.style.display === 'none' ? 'block' : 'none';
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
