@@ -1,6 +1,6 @@
 # Inventory Management System: Technical Showcase
 
-This Inventory Management System is a meticulously crafted project, developed to manage products, stock, categories, and locations efficiently. It's designed to exhibit my technical acumen in various aspects of software development, including back-end development, front-end design, data management, and the integration of multiple technologies and libraries.
+This Inventory Management System is a simple web app, developed to manage products, stock, categories, and locations efficiently. It's designed to exhibit my technical skills in various aspects of software development, including back-end development, front-end design, data management, and the integration of multiple technologies and libraries.
 
 ## 🛠 Technologies & Tools Used
 - **Java:** Core programming language for implementing the project, known for its portability and performance.
@@ -29,7 +29,7 @@ This Inventory Management System is a meticulously crafted project, developed to
 - Ensures dynamic and real-time inventory management.
 
 ### 🌐 Locations & Categories Management
-- Allows detailed input and overview of different locations and categories, ensuring organized data representation.
+- Allows detailed input and overview of different locations and categories, ensuring organised data representation.
 
 ## 📚 Code Structure & Best Practices
 - Clean, modular, and well-organized code focusing on ease of understanding, scalability, and maintenance.
@@ -55,4 +55,24 @@ This Inventory Management System is a meticulously crafted project, developed to
 
 ## 📝 Conclusion
 
-This Inventory Management System is a testament to my technical prowess and learning journey in software development, blending various technologies to form a cohesive, user-friendly, and efficient application. It symbolizes my dedication to continuous learning, understanding intricate details of each technology, and my adaptability to integrate them effectively to develop solutions for real-world challenges.
+This Inventory Management System is a testament to my technical prowess and learning journey in software development, blending various technologies to form a cohesive, user-friendly, and efficient application. It symbolises my dedication to continuous learning, understanding intricate details of each technology, and my adaptability to integrate them effectively to develop solutions for real-world challenges.
+
+## 🚀 Future Plans
+
+This project is a continuous learning journey and the upcoming steps are aimed at delving deeper into DevOps and software development craftsmanship. Here are some enhancements and technologies I plan to incorporate in the future developments of this project:
+
+-Implement Testing with Spring Boot: To ensure the reliability and stability of the application, implementing comprehensive testing is crucial. It will involve the integration of testing frameworks suitable for Spring Boot applications, which will ensure that every part of the application behaves as expected.
+
+
+-Kubernetes Integration (K8s): I plan on containerising the application using Docker and managing it using Kubernetes. This will allow for better scalability, management, and deployment of the application, ensuring it can run anywhere and handle varying loads efficiently.
+
+
+-Dockerization of the Application: Containerising the application using Docker will ensure that it has all the dependencies it needs to run and can be easily deployed to any environment that supports Docker, enhancing the portability and scalability of the application.
+
+
+-Integration with JetBrains TeamCity: By integrating with JetBrains TeamCity, I aim to automate the Continuous Integration and Deployment (CI/CD) process, making it easier to test and deploy new changes, ensuring rapid delivery of features and fixes.
+
+-Enhanced Documentation: I intend to continually improve and update the documentation to provide clear and concise information on the project’s progress, usage, and any changes made, ensuring it serves as a reliable reference for users and contributors alike.
+
+
+Incorporating these technologies and practices will not only refine the application but also allow me to showcase a broader range of technical skills and proficiency in software development and DevOps practices. Keep an eye on this space for more updates and advancements!
